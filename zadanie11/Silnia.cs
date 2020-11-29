@@ -11,7 +11,7 @@ namespace zadanie11
         /// </summary>
         /// <param name="i">i</param>
         /// <returns>i!</returns>
-        public static int silnia1(this int i)
+        public static double silnia1(this int i)
         {
             if (i < 1)
                 return 1;
