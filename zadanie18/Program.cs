@@ -42,18 +42,16 @@ namespace zadanie18
         private static void GnomSort(int arrayLength, int[] array)
         {
             int p1 = 0;
-            int tempp1;
+            int tempp1=0;
             while (p1 < arrayLength - 1)
+                
                 if (array[p1] > array[p1 + 1])
                 {
-                    tempp1 = array[p1];
-                    array[p1] = array[p1 + 1];
-                    array[p1 + 1] = tempp1;
-                    if (p1 > 0)
-                        p1--;
+                    GnomeSort.SwapItems(ref p1, ref tempp1, ref array);
+                    GnomeSort.MoveLeft(ref p1);                    
                 }
                 else
-                    p1++;
+                    GnomeSort.MoveRight(ref p1);
         }
         static void Main(string[] args)
         {

@@ -11,12 +11,12 @@ namespace zadanie11
         /// </summary>
         /// <param name="i">i</param>
         /// <returns>i!</returns>
-        public static double silnia1(this int i)
+        public static double silnia2(this int i)
         {
             if (i < 1)
                 return 1;
             else
-                return i * silnia1(i - 1);
+                return i * silnia2(i - 1);
         }        
     }
 }

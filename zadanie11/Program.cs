@@ -13,7 +13,7 @@ namespace zadanie11
             m = int.Parse(Console.ReadLine());
             for (int i = n; i <= m; i++)
             {
-                Console.WriteLine(i + "! = " + i.silnia1());  
+                Console.WriteLine(i + "! = " + i.silnia2());  
             }
         }
     }

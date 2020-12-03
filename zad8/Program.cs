@@ -22,18 +22,16 @@ namespace zad8
             int l = 0;
             int i = 0;
             int j = 0;
-            while (l != 1)
+            
+            for(i=n; i<=m; i++)
             {
-                for(i=n; i<=m; i++)
+                for(j =i; j<=m;j++)
                 {
-                    for(j =i; j<=m;j++)
-                    {
-                        l = nwd(i, j);
-                    }
-                }                
-            }
-
-            Console.WriteLine($"NWD liczb {i} i {j} to {nwd(i, j)}");
+                    l = nwd(i, j);
+                    if(l==1)
+                        Console.WriteLine($" {i}  {j}");
+                }
+            }          
         }
     }
 }

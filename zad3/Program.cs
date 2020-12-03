@@ -10,7 +10,7 @@ namespace zad3
         }
         static void Main(string[] args)
         {
-            Console.WriteLine("Podaj dwie liczby które chcesz z sumowac:");
+            Console.WriteLine("Podaj dwie liczby :");
             double x = double.Parse(Console.ReadLine());
             double y = double.Parse(Console.ReadLine());
             //a
