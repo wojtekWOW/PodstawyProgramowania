@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace zadanie19
+namespace zadanie20
 {
-    public static class  ExtendingClass
+    public static class ExtendingClass
     {
-        public static void DisplayArray(this int[] array, int arrayLength )
+        public static void DisplayArray(this int[] array, int arrayLength)
         {
             for (int i = 0; i < arrayLength; i++)
             {
@@ -29,7 +29,7 @@ namespace zadanie19
                 }
             }
         }
-        public static void GnomSort(this int[] array, int arrayLength )
+        public static int[] GnomSort(this int[] array, int arrayLength)
         {
             int p1 = 0;
             int tempp1 = 0;
@@ -43,6 +43,24 @@ namespace zadanie19
                 else
                     GnomeSort.MoveRight(ref p1);
             }
+            return array;
         }
+        public static int[] EvenSort(this int[] array, int arrayLength)
+        {
+            int p1 = 0;
+            int tempp1 = 0;
+            while (p1 < arrayLength - 1)
+            {
+                if (array[p1] % 2 == 0 && array[p1 + 1] % 2 == 1)
+                {
+                    GnomeSort.SwapItems(ref p1, ref tempp1, ref array);
+                    GnomeSort.MoveLeft(ref p1);
+                }
+                else
+                    GnomeSort.MoveRight(ref p1);
+            }
+            return array;
+        }
+
     }
 }

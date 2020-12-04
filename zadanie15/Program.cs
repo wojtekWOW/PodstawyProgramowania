@@ -25,8 +25,8 @@ namespace zadanie15
             double y = double.Parse(Console.ReadLine());
 
             //a
-            var sumDelegate = new Manipulate(Sum);
-            var sum = sumDelegate(x, y);
+            Manipulate sumDelegate = new Manipulate(Sum);
+            double sum = sumDelegate(x, y);
             Console.WriteLine($"Suma liczb {x} i {y} to {sum}");
 
             //b
