@@ -18,14 +18,19 @@ namespace zadanie12
                 cki = Console.ReadKey();
                               
                 int key;
-                bool parse = int.TryParse(cki.Key.ToString(), out key);
+                bool parse = int.TryParse(cki.KeyChar.ToString(), out key);
 
                 if (cki.Key == ConsoleKey.Oem2)
                     DisplayMenu();
                 else if ((parse==true) && (!(a.HasValue)))
                     a = key;
-                else if ((parse == true) && (a.HasValue))
+                else if ((parse == true) && (a.HasValue) && !(b.HasValue))
                     b = key;
+                else if ((parse == true) && (a.HasValue) && (b.HasValue))
+                {
+                    a = key;
+                    b = null;
+                }
                 else if (cki.Key == ConsoleKey.Add)
                 {
                     if ((a.HasValue) && (b.HasValue))
@@ -98,7 +103,7 @@ namespace zadanie12
             Console.WriteLine("+ - dodaj liczby");
             Console.WriteLine("- - odejmij liczby");
             Console.WriteLine("* - pomnóż liczby");
-            Console.WriteLine("x - zakończ program");
+            Console.WriteLine("ESC - zakończ program");
         }
     }
 }
