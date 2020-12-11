@@ -11,7 +11,7 @@ namespace zad4
             Console.WriteLine("Podaj ciąg znaków zawierający litery i cyfry w notacji naukowej");
             string scientific_notation = Console.ReadLine();
             
-            //check if char is a number and replace letter with "?"
+            //Check if char is a number and replace letter with "?"
             for (int i = 0; i < scientific_notation.Length; i++)
             {
                 if (Char.IsLetter(scientific_notation[i]) && !scientific_notation[i].Equals('E') && !scientific_notation[i].Equals(',') && !scientific_notation[i].Equals('-') && !scientific_notation[i].Equals('+'))
