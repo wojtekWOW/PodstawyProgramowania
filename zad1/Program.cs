@@ -11,6 +11,7 @@ namespace zad1
             string LettersAndDigits = Console.ReadLine();
             char[] CharArray = LettersAndDigits.ToCharArray();
 
+            //Display a char from CharArray if it is a digit
             for (int i = 0; i < CharArray.Length; i++)
             {
                 if (Char.IsDigit(CharArray[i]))
