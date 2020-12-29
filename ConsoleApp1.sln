@@ -3,23 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorytmy sortowania", "ConsoleApp1\Algorytmy sortowania.csproj", "{0B6F5EA6-C7B4-4EFF-B21B-977BD2265BD1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Algorytmy sortowania zad1", "ConsoleApp1\Algorytmy sortowania zad1.csproj", "{0B6F5EA6-C7B4-4EFF-B21B-977BD2265BD1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zad2", "zad2\zad2.csproj", "{83F9FD30-2F81-4F9D-8F1C-1F9910D08EA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "zad2", "zad2\zad2.csproj", "{83F9FD30-2F81-4F9D-8F1C-1F9910D08EA6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zad3", "zad3\zad3.csproj", "{53694E17-A8C1-4F10-BCEB-7CA8A57CF6D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "zad3", "zad3\zad3.csproj", "{53694E17-A8C1-4F10-BCEB-7CA8A57CF6D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zad4", "zad4\zad4.csproj", "{DA07BCE5-35C9-4D90-8251-A108242B7683}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "zad4", "zad4\zad4.csproj", "{DA07BCE5-35C9-4D90-8251-A108242B7683}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zad5i6", "zad5\zad5i6.csproj", "{34F6A3F1-7F02-42C8-BFFF-4CA51226A85A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "zad5i6", "zad5\zad5i6.csproj", "{34F6A3F1-7F02-42C8-BFFF-4CA51226A85A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zad7", "zad7\zad7.csproj", "{21DEF1DB-F495-4237-8191-410534DC81AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "zad7", "zad7\zad7.csproj", "{21DEF1DB-F495-4237-8191-410534DC81AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zad8", "zad8\zad8.csproj", "{5572C02B-BF54-4B85-863B-9ADF42D3B10C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "zad8", "zad8\zad8.csproj", "{5572C02B-BF54-4B85-863B-9ADF42D3B10C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zad9", "zad9\zad9.csproj", "{64947FD7-9883-41C8-A833-A74B51593AFF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "zad9", "zad9\zad9.csproj", "{64947FD7-9883-41C8-A833-A74B51593AFF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zad10", "zad10\zad10.csproj", "{969E6E7F-86F1-47F3-BE82-2B50C9DA6023}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "zad10", "zad10\zad10.csproj", "{969E6E7F-86F1-47F3-BE82-2B50C9DA6023}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
